@@ -12,6 +12,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * AOP Aspect для логирования методов Spring Bean'ов.
  */
+@Aspect
 public class LoggingAspect implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
